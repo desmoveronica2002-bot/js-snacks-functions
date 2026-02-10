@@ -4,9 +4,21 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
+function numeroVocali (stringa){
 
+    let nVoc=0;
+
+    for(let i=0; i<stringa.length; i++){
+        if (stringa[i] === 'a' || stringa[i] === 'e' || stringa[i] === 'i' || stringa[i] === 'o' || stringa[i] === 'u'){
+            nVoc+=1
+        }
+    }
+
+    return nVoc;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(numeroVocali(word));
 
 
 
