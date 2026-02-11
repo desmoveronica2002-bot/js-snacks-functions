@@ -21,6 +21,6 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
-const iniziali = nomi => nomi.map(names => names[0]); // .map prendere un array-> trasformare ogni elemento-> crea un nuovo array es: nomi.map('Anna'=>'A')
+const iniziali = (nomi) => nomi.map(names => names[0]); // .map prendere un array-> trasformare ogni elemento-> crea un nuovo array es: nomi.map('Anna'=>'A')
 console.log(iniziali(names));
 
