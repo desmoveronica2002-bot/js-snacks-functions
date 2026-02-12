@@ -4,19 +4,19 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-//function iniziali (nomi){
-//    let newArray =[];
+function iniziali (nomi){
+    let newArray =[];
 
-//    for(let i=0; i<nomi.length; i++){
-//        newArray.push(nomi[i][0]); //.push aggiunge i valori dentro newArray... prende l’elemento i dell’array, poi la posizione 0 di qell’elemento
-//    }
+    for(let i=0; i<nomi.length; i++){
+        newArray.push(nomi[i][0]); //.push aggiunge i valori dentro newArray... prende l’elemento i dell’array, poi la posizione 0 di qell’elemento
+    }
 
-//    return newArray;
-//}
+    return newArray;
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
-//console.log(iniziali(names));
+console.log(iniziali(names));
 
 
 
